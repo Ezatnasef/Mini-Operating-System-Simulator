@@ -2,6 +2,7 @@
 import { useState, useRef, useCallback } from "react";
 import { LogEntry } from "@/lib/types";
 import { runProducerConsumer, runReadersWriters, runDiningPhilosophers, runSleepingBarber } from "@/lib/sync";
+import ModuleHeader from "@/components/ModuleHeader";
 
 const TAG_COLORS: Record<string, string> = {
   System: "text-blue-400",
@@ -92,8 +93,18 @@ export default function SyncPage() {
   const stop = () => { signalRef.current.stop = true; };
 
   return (
-    <div className="p-6 max-w-5xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold">Synchronization Playground</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 3"
+        title="Synchronization Playground"
+        description="Run classical concurrency problems and watch mutexes, semaphores, and ordering rules prevent race conditions or deadlock."
+        chips={[
+          "Mutex / semaphore",
+          "Producer-consumer",
+          "Readers-writers",
+          "Dining philosophers",
+        ]}
+      />
 
       <div className="flex gap-1 border-b border-border">
         {PROBLEMS.map(p => (
