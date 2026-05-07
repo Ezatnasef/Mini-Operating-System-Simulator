@@ -8,14 +8,14 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   title: "AI422 RTOS Lab",
-  description: "Interactive Operating System Concepts Laboratory",
+  description: "AI422 embedded and real-time operating systems laboratory",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="flex min-h-screen">
+        <div className="flex min-h-screen text-slate-100">
           <Sidebar />
           <main className="flex-1 overflow-auto">{children}</main>
         </div>

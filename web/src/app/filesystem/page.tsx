@@ -3,6 +3,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { MiniFS, FsEntry } from "@/lib/filesystem";
 import { analyzeIO, resolvePosition, OPERATIONS, IOResult, Operation, AnalysisConfig, DEFAULT_CONFIG } from "@/lib/fs-io-cost";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
+import ModuleHeader from "@/components/ModuleHeader";
 
 function FileTree({ entry, depth = 0 }: { entry: FsEntry; depth?: number }) {
   const [open, setOpen] = useState(depth < 2);
@@ -232,8 +233,18 @@ export default function FilesystemPage() {
   };
 
   return (
-    <div className="p-6 max-w-5xl mx-auto space-y-4">
-      <h1 className="text-3xl font-bold">Mini File System</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 7"
+        title="Mini File System"
+        description="Work with a FAT-like virtual disk through a shell-style terminal and compare file operation I/O costs across allocation strategies."
+        chips={[
+          "FAT-like structure",
+          "Shell commands",
+          "Directory tree",
+          "Block I/O analyzer",
+        ]}
+      />
 
       <div className="flex gap-1 border-b border-border">
         <button onClick={() => setTab("terminal")}

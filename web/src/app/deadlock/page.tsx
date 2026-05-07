@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo, useCallback } from "react";
 import { BankersInput, BankersResult, bankersSafe, bankersDemo, createRAG, detectCycle, RAGState } from "@/lib/deadlock";
+import ModuleHeader from "@/components/ModuleHeader";
 
 function RAGTab() {
   const [rag, setRag] = useState<RAGState>(createRAG());
@@ -244,8 +245,18 @@ function BankersTab() {
 export default function DeadlockPage() {
   const [tab, setTab] = useState<"rag" | "bankers">("rag");
   return (
-    <div className="p-6 max-w-5xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold">Deadlock Analyzer</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 4"
+        title="Deadlock Analyzer"
+        description="Explore resource allocation graphs and Banker's Algorithm with cycle detection, safe sequences, and step-by-step reasoning."
+        chips={[
+          "Cycle detection",
+          "RAG view",
+          "Banker's algorithm",
+          "Safe sequence",
+        ]}
+      />
       <div className="flex gap-1 border-b border-border">
         {[["rag", "Resource Allocation Graph"], ["bankers", "Banker's Algorithm"]] .map(([k, label]) => (
           <button key={k} onClick={() => setTab(k as typeof tab)}

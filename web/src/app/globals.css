@@ -1,45 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
-  --card: #ffffff;
-  --card-foreground: #0f172a;
-  --primary: #2563eb;
+  --background: #070c14;
+  --foreground: #e5edf7;
+  --card: #0f1723;
+  --card-foreground: #e5edf7;
+  --primary: #f59e0b;
   --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
-  --secondary-foreground: #0f172a;
-  --muted: #f1f5f9;
-  --muted-foreground: #64748b;
-  --accent: #f1f5f9;
-  --accent-foreground: #0f172a;
-  --destructive: #ef4444;
-  --border: #e2e8f0;
-  --ring: #2563eb;
-  --success: #22c55e;
+  --secondary: #162130;
+  --secondary-foreground: #e5edf7;
+  --muted: #131d2a;
+  --muted-foreground: #90a0b5;
+  --accent: #1b2b3e;
+  --accent-foreground: #e5edf7;
+  --destructive: #f87171;
+  --border: #243245;
+  --ring: #f59e0b;
+  --success: #4ade80;
   --warning: #f59e0b;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f172a;
-    --foreground: #f8fafc;
-    --card: #1e293b;
-    --card-foreground: #f8fafc;
-    --primary: #3b82f6;
-    --primary-foreground: #ffffff;
-    --secondary: #1e293b;
-    --secondary-foreground: #f8fafc;
-    --muted: #1e293b;
-    --muted-foreground: #94a3b8;
-    --accent: #1e293b;
-    --accent-foreground: #f8fafc;
-    --destructive: #ef4444;
-    --border: #334155;
-    --ring: #3b82f6;
-    --success: #22c55e;
-    --warning: #f59e0b;
-  }
 }
 
 @theme inline {
@@ -69,8 +47,31 @@
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top left, rgba(125, 166, 255, 0.10), transparent 24%),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.16), transparent 22%),
+    linear-gradient(180deg, #0b1320 0%, #070c14 45%, #050910 100%);
   color: var(--foreground);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(148, 163, 184, 0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, 0.045) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 78%);
+  opacity: 0.18;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), transparent 34%, rgba(255, 255, 255, 0.01));
+  opacity: 0.24;
 }
 
 ::-webkit-scrollbar { width: 6px; height: 6px; }

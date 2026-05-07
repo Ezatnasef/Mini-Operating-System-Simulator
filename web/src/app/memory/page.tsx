@@ -6,6 +6,7 @@ import {
   deallocate, compact, externalFragmentation, totalFree,
   createFragmentedDemo, previewAllocation, AllocResult,
 } from "@/lib/memory";
+import ModuleHeader from "@/components/ModuleHeader";
 
 const COLORS = ["#3b82f6","#ef4444","#22c55e","#f59e0b","#a855f7","#ec4899","#14b8a6","#f97316","#6366f1","#84cc16"];
 const TOTAL = 1024;
@@ -144,8 +145,18 @@ export default function MemoryPage() {
   const freeHoles = blocks.filter(b => b.pid === -1);
 
   return (
-    <div className="p-6 max-w-5xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold">Memory Management</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 5"
+        title="Memory Management"
+        description="Simulate first fit, best fit, and worst fit allocation, fragmentation, compaction, and a detailed memory map."
+        chips={[
+          "First / best / worst fit",
+          "Fragmentation",
+          "Compaction",
+          "Memory map",
+        ]}
+      />
 
       <div className="flex flex-wrap gap-3 items-end">
         <label className="space-y-1"><span className="text-xs text-muted-foreground">Size</span>

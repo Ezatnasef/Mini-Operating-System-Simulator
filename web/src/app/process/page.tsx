@@ -2,6 +2,7 @@
 import { useState, Fragment } from "react";
 import { ProcessControlBlock, ProcessState, LogEntry } from "@/lib/types";
 import { createProcess, makeThread, transitionProcess, nextPid, nextTid } from "@/lib/process";
+import ModuleHeader from "@/components/ModuleHeader";
 
 const STATE_COLORS: Record<ProcessState, string> = {
   [ProcessState.NEW]: "bg-blue-500",
@@ -81,8 +82,18 @@ export default function ProcessPage() {
   };
 
   return (
-    <div className="p-6 max-w-5xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold">Process & Thread Simulator</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 1"
+        title="Process & Thread Simulator"
+        description="Model process states, thread creation, and transitions across a compact control-table and live event log."
+        chips={[
+          "State machine",
+          "Thread budget",
+          "PCB view",
+          "Live logging",
+        ]}
+      />
 
       <div className="flex flex-wrap gap-3 items-end">
         {([["Burst", "burst", 1], ["Priority", "priority", 0], ["Arrival", "arrival", 0], ["Memory", "memory", 1]] as const).map(([label, key, min]) => (
