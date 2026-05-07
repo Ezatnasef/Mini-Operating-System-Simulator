@@ -3,6 +3,7 @@ import { useState, useMemo } from "react";
 import { runFIFO, runLRU, runOptimal, runClock, sampleRefs } from "@/lib/vmem";
 import { ReplacementResult } from "@/lib/types";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+import ModuleHeader from "@/components/ModuleHeader";
 
 function PageTable({ result }: { result: ReplacementResult }) {
   const first = result.frameSnapshots[0];
@@ -63,8 +64,18 @@ export default function VmemPage() {
   const chartData = results.map((r, i) => ({ name: algoNames[i], "Page Faults": r.pageFaults, Hits: r.hits }));
 
   return (
-    <div className="p-6 max-w-6xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold">Virtual Memory Simulator</h1>
+    <div className="relative p-6 md:p-8 max-w-7xl mx-auto space-y-6">
+      <ModuleHeader
+        eyebrow="Module 6"
+        title="Virtual Memory Simulator"
+        description="Step through page replacement algorithms and compare fault/hit behavior across FIFO, LRU, Optimal, and Clock."
+        chips={[
+          "Page faults",
+          "Frame table",
+          "Replacement policies",
+          "Comparison chart",
+        ]}
+      />
 
       <div className="flex flex-wrap gap-3 items-end">
         <label className="space-y-1 flex-1 min-w-[200px]"><span className="text-xs text-muted-foreground">Reference String (comma-separated)</span>
