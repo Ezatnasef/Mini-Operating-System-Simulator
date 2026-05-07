@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\deadlock\\deadlock_analyzer.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\deadlock\\deadlock_analyzer.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/deadlock/deadlock_analyzer.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/deadlock/deadlock_analyzer.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\filesystem\\filesystem_sim.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\filesystem\\filesystem_sim.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/filesystem/filesystem_sim.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/filesystem/filesystem_sim.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\main.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\main.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/main.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\memory\\memory_sim.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\memory\\memory_sim.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/memory/memory_sim.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/memory/memory_sim.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\process\\process_simulator.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\process\\process_simulator.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/process/process_simulator.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/process/process_simulator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\scheduler\\scheduler_lab.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\scheduler\\scheduler_lab.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/scheduler/scheduler_lab.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/scheduler/scheduler_lab.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\sync\\sync_playground.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\sync\\sync_playground.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/sync/sync_playground.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/sync/sync_playground.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\include /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /FoCMakeFiles\\mini_os_sim.dir\\src\\vmem\\vmem_sim.cpp.obj /FdCMakeFiles\\mini_os_sim.dir\\ /FS -c C:\\Users\\Nasef\\Desktop\\mini-OS-simulator-main\\src\\vmem\\vmem_sim.cpp",
+  "file": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/src/vmem/vmem_sim.cpp",
+  "output": "C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir/src/vmem/vmem_sim.cpp.obj"
+}
+]

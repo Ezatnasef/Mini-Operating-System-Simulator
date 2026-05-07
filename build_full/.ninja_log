@@ -1,0 +1,10 @@
+# ninja log v5
+53	1794	7998615036800174	CMakeFiles/mini_os_sim.dir/src/main.cpp.obj	352b7806d467942c
+62	1939	7998615038167564	CMakeFiles/mini_os_sim.dir/src/memory/memory_sim.cpp.obj	36758a65d163d951
+67	2285	7998615041925867	CMakeFiles/mini_os_sim.dir/src/process/process_simulator.cpp.obj	de71a0e8eb35e93b
+37	2320	7998615042155489	CMakeFiles/mini_os_sim.dir/src/deadlock/deadlock_analyzer.cpp.obj	e3706bc3ac7c7ba1
+73	2373	7998615042672903	CMakeFiles/mini_os_sim.dir/src/scheduler/scheduler_lab.cpp.obj	7e0c73794f423fd9
+80	2461	7998615043600806	CMakeFiles/mini_os_sim.dir/src/sync/sync_playground.cpp.obj	31128778a26c39e0
+87	2678	7998615045830963	CMakeFiles/mini_os_sim.dir/src/vmem/vmem_sim.cpp.obj	282e5d80a9c4345d
+45	2688	7998615045961060	CMakeFiles/mini_os_sim.dir/src/filesystem/filesystem_sim.cpp.obj	f9377fcc475f71f0
+2688	3429	7998615053113813	mini_os_sim.exe	a2548fa3aa97f788

@@ -1,0 +1,3 @@
+C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/mini_os_sim.dir
+C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/edit_cache.dir
+C:/Users/Nasef/Desktop/mini-OS-simulator-main/build_full/CMakeFiles/rebuild_cache.dir
