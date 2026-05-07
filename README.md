@@ -6,7 +6,6 @@ A **user-level educational lab** for AI422 that demonstrates process management,
 
 Makes abstract OS concepts concrete: processes & threads, scheduling (FCFS, SJF, RR, Priority, MLFQ), synchronization (mutex, semaphore; Producer-Consumer, Readers-Writers, Dining Philosophers, Sleeping Barber), deadlocks (RAG, Banker's), memory partitioning (first/best/worst fit, compaction), virtual memory (FIFO/LRU/Optimal/Clock), and a FAT-like file system with a Block I/O Cost Analyzer.
 
-website:  https://mini-os-simulator-ten.vercel.app
 ---
 
 ## Requirements
